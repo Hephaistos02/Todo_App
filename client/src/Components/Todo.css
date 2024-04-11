@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+   
+    background-color: #056679 ;
+}
+.todo-container{
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    
+}
+
+.input-section{
+    background-color: #055565 ;
+    padding: 18px;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 7px 6px #0000003b;
+}
+
+.input-section input{
+    border-color: 5px;
+    border: 1px solid #106879;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    background-color: #055565;
+    outline: none;
+    color: #08869e;
+}
+ul{
+
+    border-radius: 10px;
+    
+}
+ul li{
+    list-style: none;
+    background-color: #055565;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: left;
+    margin-bottom: 10px;
+    color: #08869e;
+    box-shadow: 0 4px 6px #00000066;
+    display: flex;
+    
+}
+input::placeholder{
+    color: #08869e;
+}
+h1{
+    margin: 0;
+    margin-bottom: 15px;
+    color: #086b7d;
+}
+ul li i{
+    text-align: right;
+    flex: 1;
+}
+.add-btn{
+    width: 100%;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    background-color: #056679 ;
+    color: #039fbe;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.add-btn:hover{
+    background-color: #045464;
+    color: white;
+}
+.add-btn:active{
+    background-color: #055565;
+    color: #08869e;
+}
+.react-icons{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 10px;
+    font-size: 20px;
+    cursor: pointer;
+ 
+    
+
+}
+.list-items{
+    display: flex;
+}
+.list-items .list-item-list{
+ 
+    flex: 1;
+}
+#complete:hover{
+    color: chartreuse;
+    font-size: 21px;
+}
+#edit:hover{
+    color: orange;
+    font-size: 21px;
+}
+#delete:hover{
+    color: red;
+    font-size: 21px;
+}
+#list-item{
+    text-decoration: line-through;
+    color: black;
+}
+
+      /* <CircleLoader color="#056679" /> */
